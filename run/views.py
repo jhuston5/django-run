@@ -8,4 +8,9 @@ class HomePageView(TemplateView):
 class AboutPageView(TemplateView):
   template_name='about.html'
 
+class ClubPageView(TemplateView):
+  template_name='club.html'
+
+class InfoPageView(TemplateView):
+  template_name='info.html'
 # Create your views here.
